@@ -15,6 +15,11 @@ h4 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 /* Header image */
 
 header {
@@ -95,7 +100,7 @@ nav a {
 }
 
 .tea-container {
-margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 .tea-pic {
@@ -111,8 +116,50 @@ margin: 0px 20px;
 
 #locations {
   margin-top: 60px;
+  padding-top: 60px;
+  flex-direction: column;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
   height: 500px;
+}
+
+.locations {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 120px;
+}
+
+.location {
+  opacity: 1.0;
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.locationbanner {
+  margin-bottom: 0px;
+}
+
+.locationbanner h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.location p {
+  margin: 40px 15px;
+}
+
+/* Footer */
+
+.contact h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
